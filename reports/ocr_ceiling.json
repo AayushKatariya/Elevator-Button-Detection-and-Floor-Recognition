@@ -1,0 +1,339 @@
+{
+ "split": "test",
+ "tta": true,
+ "evaluated": 1385,
+ "correct": 386,
+ "incorrect": 506,
+ "no_read": 493,
+ "exact_accuracy": 0.2787,
+ "snapped_accuracy": 0.283,
+ "latency_ms": {
+  "mean": 20.59,
+  "median": 18.8,
+  "p95": 29.07
+ },
+ "by_size": {
+  "medium (32-48px)": {
+   "correct": 129,
+   "total": 483
+  },
+  "large  (48-64px)": {
+   "correct": 82,
+   "total": 219
+  },
+  "small  (24-32px)": {
+   "correct": 18,
+   "total": 150
+  },
+  "xlarge (>=64px)": {
+   "correct": 152,
+   "total": 341
+  },
+  "tiny   (<24px)": {
+   "correct": 5,
+   "total": 192
+  }
+ },
+ "confusion": [
+  {
+   "truth": "1",
+   "got": "<no read>",
+   "count": 40
+  },
+  {
+   "truth": "3",
+   "got": "<no read>",
+   "count": 37
+  },
+  {
+   "truth": "2",
+   "got": "<no read>",
+   "count": 32
+  },
+  {
+   "truth": "10",
+   "got": "<no read>",
+   "count": 28
+  },
+  {
+   "truth": "4",
+   "got": "<no read>",
+   "count": 26
+  },
+  {
+   "truth": "6",
+   "got": "<no read>",
+   "count": 25
+  },
+  {
+   "truth": "9",
+   "got": "<no read>",
+   "count": 24
+  },
+  {
+   "truth": "7",
+   "got": "<no read>",
+   "count": 24
+  },
+  {
+   "truth": "5",
+   "got": "<no read>",
+   "count": 22
+  },
+  {
+   "truth": "8",
+   "got": "<no read>",
+   "count": 18
+  },
+  {
+   "truth": "11",
+   "got": "<no read>",
+   "count": 17
+  },
+  {
+   "truth": "G",
+   "got": "<no read>",
+   "count": 15
+  },
+  {
+   "truth": "12",
+   "got": "<no read>",
+   "count": 14
+  },
+  {
+   "truth": "13",
+   "got": "<no read>",
+   "count": 13
+  },
+  {
+   "truth": "7",
+   "got": "1",
+   "count": 12
+  },
+  {
+   "truth": "15",
+   "got": "<no read>",
+   "count": 12
+  },
+  {
+   "truth": "14",
+   "got": "<no read>",
+   "count": 12
+  },
+  {
+   "truth": "17",
+   "got": "<no read>",
+   "count": 11
+  },
+  {
+   "truth": "2",
+   "got": "1",
+   "count": 11
+  },
+  {
+   "truth": "19",
+   "got": "<no read>",
+   "count": 10
+  },
+  {
+   "truth": "G",
+   "got": "6",
+   "count": 9
+  },
+  {
+   "truth": "6",
+   "got": "0",
+   "count": 9
+  },
+  {
+   "truth": "9",
+   "got": "0",
+   "count": 9
+  },
+  {
+   "truth": "2",
+   "got": "7",
+   "count": 8
+  },
+  {
+   "truth": "20",
+   "got": "<no read>",
+   "count": 8
+  },
+  {
+   "truth": "18",
+   "got": "<no read>",
+   "count": 8
+  },
+  {
+   "truth": "16",
+   "got": "<no read>",
+   "count": 8
+  },
+  {
+   "truth": "B",
+   "got": "<no read>",
+   "count": 7
+  },
+  {
+   "truth": "23",
+   "got": "<no read>",
+   "count": 7
+  },
+  {
+   "truth": "5",
+   "got": "6",
+   "count": 7
+  },
+  {
+   "truth": "8",
+   "got": "0",
+   "count": 7
+  },
+  {
+   "truth": "1",
+   "got": "4",
+   "count": 7
+  },
+  {
+   "truth": "24",
+   "got": "<no read>",
+   "count": 6
+  },
+  {
+   "truth": "21",
+   "got": "<no read>",
+   "count": 6
+  },
+  {
+   "truth": "22",
+   "got": "<no read>",
+   "count": 6
+  },
+  {
+   "truth": "3",
+   "got": "0",
+   "count": 6
+  },
+  {
+   "truth": "4",
+   "got": "0",
+   "count": 6
+  },
+  {
+   "truth": "3",
+   "got": "1",
+   "count": 5
+  },
+  {
+   "truth": "1",
+   "got": "7",
+   "count": 5
+  },
+  {
+   "truth": "25",
+   "got": "<no read>",
+   "count": 5
+  },
+  {
+   "truth": "11",
+   "got": "1",
+   "count": 5
+  },
+  {
+   "truth": "2",
+   "got": "0",
+   "count": 5
+  },
+  {
+   "truth": "10",
+   "got": "0",
+   "count": 5
+  },
+  {
+   "truth": "G",
+   "got": "0",
+   "count": 5
+  },
+  {
+   "truth": "2",
+   "got": "4",
+   "count": 5
+  },
+  {
+   "truth": "4",
+   "got": "1",
+   "count": 5
+  },
+  {
+   "truth": "15",
+   "got": "1",
+   "count": 4
+  },
+  {
+   "truth": "B1",
+   "got": "<no read>",
+   "count": 4
+  },
+  {
+   "truth": "B1",
+   "got": "01",
+   "count": 4
+  },
+  {
+   "truth": "8",
+   "got": "3",
+   "count": 4
+  },
+  {
+   "truth": "12",
+   "got": "1",
+   "count": 4
+  },
+  {
+   "truth": "3",
+   "got": "2",
+   "count": 4
+  },
+  {
+   "truth": "0",
+   "got": "<no read>",
+   "count": 4
+  },
+  {
+   "truth": "5",
+   "got": "3",
+   "count": 4
+  },
+  {
+   "truth": "27",
+   "got": "<no read>",
+   "count": 3
+  },
+  {
+   "truth": "21",
+   "got": "2",
+   "count": 3
+  },
+  {
+   "truth": "19",
+   "got": "1",
+   "count": 3
+  },
+  {
+   "truth": "20",
+   "got": "4",
+   "count": 3
+  },
+  {
+   "truth": "L",
+   "got": "1",
+   "count": 3
+  },
+  {
+   "truth": "2",
+   "got": "26",
+   "count": 3
+  }
+ ]
+}

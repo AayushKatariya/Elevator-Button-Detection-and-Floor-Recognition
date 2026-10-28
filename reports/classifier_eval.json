@@ -1,0 +1,152 @@
+{
+ "weights": "models/button_cls.pt",
+ "classes": 228,
+ "evaluated": 1385,
+ "correct": 926,
+ "accuracy": 0.6686,
+ "accuracy_gated_0.30": 0.6855,
+ "answered_at_gate": 1345,
+ "unseen_label_count": 11,
+ "ms_per_crop": 4.671,
+ "by_label_len": {
+  "1": {
+   "correct": 639,
+   "total": 860
+  },
+  "2": {
+   "correct": 287,
+   "total": 520
+  },
+  "3": {
+   "correct": 0,
+   "total": 5
+  }
+ },
+ "top_confusions": [
+  {
+   "truth": "7",
+   "got": "1",
+   "n": 9
+  },
+  {
+   "truth": "3",
+   "got": "1",
+   "n": 8
+  },
+  {
+   "truth": "3",
+   "got": "2",
+   "n": 5
+  },
+  {
+   "truth": "G",
+   "got": "6",
+   "n": 5
+  },
+  {
+   "truth": "2",
+   "got": "7",
+   "n": 4
+  },
+  {
+   "truth": "3",
+   "got": "8",
+   "n": 4
+  },
+  {
+   "truth": "6",
+   "got": "G",
+   "n": 4
+  },
+  {
+   "truth": "6",
+   "got": "8",
+   "n": 4
+  },
+  {
+   "truth": "7",
+   "got": "2",
+   "n": 4
+  },
+  {
+   "truth": "8",
+   "got": "9",
+   "n": 4
+  },
+  {
+   "truth": "8",
+   "got": "6",
+   "n": 4
+  },
+  {
+   "truth": "8",
+   "got": "3",
+   "n": 4
+  },
+  {
+   "truth": "10",
+   "got": "9",
+   "n": 3
+  },
+  {
+   "truth": "16",
+   "got": "18",
+   "n": 3
+  },
+  {
+   "truth": "19",
+   "got": "10",
+   "n": 3
+  },
+  {
+   "truth": "2",
+   "got": "10",
+   "n": 3
+  },
+  {
+   "truth": "5",
+   "got": "6",
+   "n": 3
+  },
+  {
+   "truth": "6",
+   "got": "2",
+   "n": 3
+  },
+  {
+   "truth": "9",
+   "got": "2",
+   "n": 3
+  },
+  {
+   "truth": "9",
+   "got": "3",
+   "n": 3
+  },
+  {
+   "truth": "1",
+   "got": "2",
+   "n": 2
+  },
+  {
+   "truth": "1",
+   "got": "8",
+   "n": 2
+  },
+  {
+   "truth": "1",
+   "got": "4",
+   "n": 2
+  },
+  {
+   "truth": "1",
+   "got": "6",
+   "n": 2
+  },
+  {
+   "truth": "10",
+   "got": "18",
+   "n": 2
+  }
+ ]
+}

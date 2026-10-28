@@ -1,0 +1,38 @@
+# Elevator Button Detection & Floor Recognition
+#
+# GPU NOTE (important on Blackwell / RTX 50-series):
+#   torch from PyPI ships CUDA 12.4 builds that support up to sm_90. An RTX 5070
+#   Ti is sm_120: torch.cuda.is_available() returns True but EVERY kernel launch
+#   fails with "no kernel image is available for execution on the device", and
+#   Ultralytics will pick the GPU and crash on the first forward pass.
+#
+#   Install torch from the cu128 index FIRST, then the rest:
+#     pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+#     pip install -r requirements.txt
+#
+#   Verify with a real matmul, not is_available():
+#     python -c "import torch; x=torch.rand(512,512,device='cuda'); print((x@x).sum())"
+
+# --- core ---------------------------------------------------------------
+torch>=2.11.0             # cu128 build required for sm_120; see note above
+torchvision>=0.26.0
+ultralytics>=8.4.0        # YOLOv8n detector + YOLOv8n-cls recognizer
+opencv-python>=4.9.0
+numpy>=1.26.0
+pyyaml>=6.0
+pillow>=10.0.0
+
+# --- recognition --------------------------------------------------------
+# PaddleOCR is the fallback half of the hybrid recognizer. Only its
+# TextRecognition model is used; its detection model is not (and crashes with a
+# oneDNN error on some Windows setups, which we sidestep entirely).
+paddlepaddle>=3.0.0
+paddleocr>=3.0.0
+
+# --- optional: baseline engines for the Part 3 comparison ---------------
+# Not needed to run the pipeline. Required only to reproduce ocr_compare.py.
+easyocr>=1.7.0
+pytesseract>=0.3.10       # ALSO needs the Tesseract system binary:
+                          #   Windows: winget install --id UB-Mannheim.TesseractOCR
+                          #   macOS:   brew install tesseract
+                          #   Linux:   apt install tesseract-ocr

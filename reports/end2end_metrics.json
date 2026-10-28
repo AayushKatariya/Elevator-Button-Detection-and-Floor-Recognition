@@ -1,0 +1,11 @@
+{
+ "correct_floor_identification": 861,
+ "total_test_cases": 1385,
+ "accuracy": 0.6217,
+ "failure_modes": {
+  "detected, OCR misread": 418,
+  "button not detected": 59,
+  "wrong button selected": 44,
+  "detected, OCR failed (no read)": 3
+ }
+}

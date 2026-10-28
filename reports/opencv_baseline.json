@@ -1,0 +1,303 @@
+{
+ "train_size": 12553,
+ "test_size": 1385,
+ "classes": 251,
+ "crop_size": 128,
+ "results": [
+  {
+   "method": "template matching",
+   "accuracy": 0.0166,
+   "correct": 23,
+   "evaluated": 1385,
+   "ms_per_crop": 0.107,
+   "by_label_len": {
+    "1": {
+     "correct": 20,
+     "total": 860
+    },
+    "2": {
+     "correct": 3,
+     "total": 520
+    },
+    "3": {
+     "correct": 0,
+     "total": 5
+    }
+   },
+   "top_confusions": [
+    {
+     "truth": "2",
+     "got": "8",
+     "n": 11
+    },
+    {
+     "truth": "4",
+     "got": "-1M",
+     "n": 11
+    },
+    {
+     "truth": "2",
+     "got": "K",
+     "n": 9
+    },
+    {
+     "truth": "1",
+     "got": "8",
+     "n": 8
+    },
+    {
+     "truth": "3",
+     "got": "K",
+     "n": 8
+    },
+    {
+     "truth": "1",
+     "got": "0",
+     "n": 8
+    },
+    {
+     "truth": "5",
+     "got": "K",
+     "n": 7
+    },
+    {
+     "truth": "3",
+     "got": "8",
+     "n": 6
+    },
+    {
+     "truth": "3",
+     "got": "-1M",
+     "n": 6
+    },
+    {
+     "truth": "6",
+     "got": "B",
+     "n": 6
+    },
+    {
+     "truth": "9",
+     "got": "K",
+     "n": 6
+    },
+    {
+     "truth": "8",
+     "got": "K",
+     "n": 6
+    },
+    {
+     "truth": "1",
+     "got": "K",
+     "n": 6
+    },
+    {
+     "truth": "1",
+     "got": "I",
+     "n": 5
+    },
+    {
+     "truth": "5",
+     "got": "G",
+     "n": 5
+    }
+   ]
+  },
+  {
+   "method": "kNN (k=3, pixels)",
+   "accuracy": 0.2484,
+   "correct": 344,
+   "evaluated": 1385,
+   "ms_per_crop": 0.168,
+   "by_label_len": {
+    "1": {
+     "correct": 263,
+     "total": 860
+    },
+    "2": {
+     "correct": 81,
+     "total": 520
+    },
+    "3": {
+     "correct": 0,
+     "total": 5
+    }
+   },
+   "top_confusions": [
+    {
+     "truth": "3",
+     "got": "1",
+     "n": 25
+    },
+    {
+     "truth": "3",
+     "got": "2",
+     "n": 21
+    },
+    {
+     "truth": "2",
+     "got": "1",
+     "n": 21
+    },
+    {
+     "truth": "4",
+     "got": "1",
+     "n": 21
+    },
+    {
+     "truth": "7",
+     "got": "1",
+     "n": 20
+    },
+    {
+     "truth": "7",
+     "got": "2",
+     "n": 15
+    },
+    {
+     "truth": "1",
+     "got": "2",
+     "n": 15
+    },
+    {
+     "truth": "6",
+     "got": "2",
+     "n": 14
+    },
+    {
+     "truth": "5",
+     "got": "1",
+     "n": 14
+    },
+    {
+     "truth": "5",
+     "got": "3",
+     "n": 12
+    },
+    {
+     "truth": "6",
+     "got": "1",
+     "n": 12
+    },
+    {
+     "truth": "9",
+     "got": "1",
+     "n": 12
+    },
+    {
+     "truth": "G",
+     "got": "1",
+     "n": 11
+    },
+    {
+     "truth": "8",
+     "got": "1",
+     "n": 9
+    },
+    {
+     "truth": "2",
+     "got": "3",
+     "n": 9
+    }
+   ]
+  },
+  {
+   "method": "HOG + SVM (RBF)",
+   "accuracy": 0.3206,
+   "correct": 444,
+   "evaluated": 1385,
+   "ms_per_crop": 5.719,
+   "by_label_len": {
+    "1": {
+     "correct": 406,
+     "total": 860
+    },
+    "2": {
+     "correct": 38,
+     "total": 520
+    },
+    "3": {
+     "correct": 0,
+     "total": 5
+    }
+   },
+   "top_confusions": [
+    {
+     "truth": "2",
+     "got": "1",
+     "n": 17
+    },
+    {
+     "truth": "5",
+     "got": "3",
+     "n": 15
+    },
+    {
+     "truth": "3",
+     "got": "1",
+     "n": 15
+    },
+    {
+     "truth": "7",
+     "got": "1",
+     "n": 14
+    },
+    {
+     "truth": "4",
+     "got": "2",
+     "n": 13
+    },
+    {
+     "truth": "10",
+     "got": "1",
+     "n": 12
+    },
+    {
+     "truth": "3",
+     "got": "2",
+     "n": 11
+    },
+    {
+     "truth": "B1",
+     "got": "1",
+     "n": 10
+    },
+    {
+     "truth": "7",
+     "got": "2",
+     "n": 10
+    },
+    {
+     "truth": "6",
+     "got": "1",
+     "n": 9
+    },
+    {
+     "truth": "11",
+     "got": "1",
+     "n": 9
+    },
+    {
+     "truth": "10",
+     "got": "2",
+     "n": 9
+    },
+    {
+     "truth": "5",
+     "got": "1",
+     "n": 9
+    },
+    {
+     "truth": "4",
+     "got": "1",
+     "n": 9
+    },
+    {
+     "truth": "9",
+     "got": "3",
+     "n": 8
+    }
+   ],
+   "hog_dim": 8100
+  }
+ ]
+}

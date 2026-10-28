@@ -1,0 +1,202 @@
+{
+  "buttons": [
+    {
+      "text": "4",
+      "bbox": [
+        287,
+        494,
+        358,
+        564
+      ],
+      "center": [
+        322,
+        529
+      ],
+      "confidence": 0.509,
+      "ocr_confidence": 0.8213,
+      "detection_confidence": 0.6197
+    },
+    {
+      "text": "4",
+      "bbox": [
+        397,
+        494,
+        466,
+        565
+      ],
+      "center": [
+        431,
+        529
+      ],
+      "confidence": 0.7491,
+      "ocr_confidence": 0.9336,
+      "detection_confidence": 0.8024
+    },
+    {
+      "text": "4",
+      "bbox": [
+        288,
+        616,
+        357,
+        684
+      ],
+      "center": [
+        322,
+        650
+      ],
+      "confidence": 0.7632,
+      "ocr_confidence": 0.9062,
+      "detection_confidence": 0.8422
+    },
+    {
+      "text": "4",
+      "bbox": [
+        397,
+        616,
+        464,
+        687
+      ],
+      "center": [
+        430,
+        651
+      ],
+      "confidence": 0.8317,
+      "ocr_confidence": 0.9975,
+      "detection_confidence": 0.8337
+    },
+    {
+      "text": "3",
+      "bbox": [
+        290,
+        715,
+        357,
+        784
+      ],
+      "center": [
+        323,
+        749
+      ],
+      "confidence": 0.8148,
+      "ocr_confidence": 0.9955,
+      "detection_confidence": 0.8184
+    },
+    {
+      "text": "4",
+      "bbox": [
+        397,
+        715,
+        464,
+        785
+      ],
+      "center": [
+        430,
+        750
+      ],
+      "confidence": 0.8609,
+      "ocr_confidence": 0.9983,
+      "detection_confidence": 0.8624
+    },
+    {
+      "text": "4",
+      "bbox": [
+        289,
+        810,
+        357,
+        879
+      ],
+      "center": [
+        323,
+        844
+      ],
+      "confidence": 0.582,
+      "ocr_confidence": 0.6922,
+      "detection_confidence": 0.8409
+    },
+    {
+      "text": "2",
+      "bbox": [
+        398,
+        810,
+        464,
+        882
+      ],
+      "center": [
+        431,
+        846
+      ],
+      "confidence": 0.8506,
+      "ocr_confidence": 0.9989,
+      "detection_confidence": 0.8515
+    },
+    {
+      "text": null,
+      "bbox": [
+        293,
+        903,
+        357,
+        969
+      ],
+      "center": [
+        325,
+        936
+      ],
+      "confidence": 0.0,
+      "ocr_confidence": 0.0,
+      "detection_confidence": 0.7035
+    },
+    {
+      "text": "G",
+      "bbox": [
+        398,
+        905,
+        464,
+        973
+      ],
+      "center": [
+        431,
+        939
+      ],
+      "confidence": 0.62,
+      "ocr_confidence": 0.73,
+      "detection_confidence": 0.8494
+    },
+    {
+      "text": "SIS",
+      "bbox": [
+        291,
+        997,
+        357,
+        1063
+      ],
+      "center": [
+        324,
+        1030
+      ],
+      "confidence": 0.3336,
+      "ocr_confidence": 0.4762,
+      "detection_confidence": 0.7006
+    },
+    {
+      "text": "K",
+      "bbox": [
+        398,
+        998,
+        463,
+        1067
+      ],
+      "center": [
+        430,
+        1032
+      ],
+      "confidence": 0.8034,
+      "ocr_confidence": 0.94,
+      "detection_confidence": 0.8547
+    }
+  ],
+  "count": 12,
+  "image": "Unseen Dataset\\WhatsApp Image 2026-08-29 at 14.16.23.jpeg",
+  "timings_ms": {
+    "detect_ms": 22.9,
+    "ocr_ms": 902.91
+  }
+}

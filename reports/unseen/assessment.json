@@ -1,0 +1,116 @@
+{
+  "_note": "Manual visual assessment of 8 self-shot phone photos of real elevator panels, none from the training dataset. No ground-truth annotations exist for these, so each prediction was checked by eye against the annotated image in this directory. A reviewer can verify every count by opening the corresponding *_annotated.jpg.",
+  "date": "2026-08-29",
+  "images": 8,
+  "total_detections": 159,
+
+  "per_image": [
+    {
+      "file": "WhatsApp Image 2026-08-29 at 14.16.45.jpeg",
+      "resolution": "960x1280",
+      "panel_type": "labels printed ON the button",
+      "detected": 35,
+      "text_buttons": 29,
+      "text_correct": 29,
+      "note": "every numbered and lettered button correct: 8,18,27 / 7,17,26 / 6,16,25 / 5,15,24 / 4,14,23 / 3,13,22 / 2,12,21 / 1,11,20 / G,10,19 / B,9. Errors confined to a wheelchair pictogram, a phone, two keyholes and a bypass switch."
+    },
+    {
+      "file": "WhatsApp Image 2026-08-29 at 14.17.52.jpeg",
+      "resolution": "720x1280",
+      "panel_type": "labels printed ON the button",
+      "detected": 20,
+      "text_buttons": 10,
+      "text_correct": 10,
+      "note": "1-9 and B1 all correct. Errors are door-open/close arrows, an emergency phone and two keyholes."
+    },
+    {
+      "file": "WhatsApp Image 2026-08-29 at 14.16.53.jpeg",
+      "resolution": "900x1600",
+      "panel_type": "labels printed ON the button",
+      "detected": 27,
+      "text_buttons": 24,
+      "text_correct": 18,
+      "note": "misreads 21->4, 14->4, 11->M, 9->2, 7->1, 1->4. Engraved metal, low contrast, strong specular glare."
+    },
+    {
+      "file": "WhatsApp Image 2026-08-29 at 14.16.16.jpeg",
+      "resolution": "960x1280",
+      "panel_type": "labels printed ON the button",
+      "detected": 11,
+      "text_buttons": 5,
+      "text_correct": 4,
+      "note": "3,1,2,G correct; 4 misread. The other 6 buttons are symbols (fan, light, STOP, bell, door open, door close), all given spurious digits."
+    },
+    {
+      "file": "WhatsApp Image 2026-08-29 at 14.16.23.jpeg",
+      "resolution": "720x1280",
+      "panel_type": "labels printed ON the button",
+      "detected": 12,
+      "text_buttons": 5,
+      "text_correct": 4,
+      "note": "3,4,2,G correct; 1 misread as 4. Keyhole correctly returned no read. The floor-indicator display was correctly NOT detected."
+    },
+    {
+      "file": "WhatsApp Image 2026-08-29 at 14.15.57.jpeg",
+      "resolution": "1200x1600",
+      "panel_type": "labels printed BESIDE the button",
+      "detected": 27,
+      "text_buttons": 27,
+      "text_correct": 0,
+      "note": "systematic failure. The number is engraved to the left of the button, not on it. crop_padding_ratio=-0.22 crops inward and removes the number, leaving a blank metal disc."
+    },
+    {
+      "file": "WhatsApp Image 2026-08-29 at 14.16.05.jpeg",
+      "resolution": "1200x1600",
+      "panel_type": "labels printed BESIDE the button",
+      "detected": 27,
+      "text_buttons": 27,
+      "text_correct": 0,
+      "note": "same panel design and same systematic failure as 14.15.57."
+    },
+    {
+      "file": "WhatsApp Image 2026-08-29 at 14.19.05.jpeg",
+      "resolution": "1200x1600",
+      "panel_type": "flat capacitive touch panel",
+      "detected": 0,
+      "text_buttons": 4,
+      "text_correct": 0,
+      "note": "nothing detected. The detector was trained only on raised buttons with bezels; a flat printed surface has no edges to latch onto."
+    }
+  ],
+
+  "summary": {
+    "labels_on_button": {
+      "panels": 5,
+      "text_buttons": 73,
+      "correct": 65,
+      "accuracy": 0.890
+    },
+    "labels_beside_button": {
+      "panels": 2,
+      "text_buttons": 54,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "flat_touch_panel": {
+      "panels": 1,
+      "text_buttons": 4,
+      "correct": 0,
+      "accuracy": 0.0,
+      "detected": 0
+    },
+    "all_panels": {
+      "text_buttons": 131,
+      "correct": 65,
+      "accuracy": 0.496
+    }
+  },
+
+  "findings": [
+    "Detection transfers well to real photographs. 7 of 8 panels were detected essentially completely at full phone resolution and portrait aspect, despite the model only ever seeing 640x640 squares.",
+    "Recognition is bimodal, not average. 89.0% where the label is printed on the button; 0% where it sits beside the button. The single number 49.6% describes neither regime.",
+    "Symbol buttons are always assigned a spurious text label. The classifier was trained only on OCR-scorable crops, so it has no symbol class and cannot abstain -- a fan reads as '5', STOP as 'B3'. This is a design gap, not a tuning issue.",
+    "The inward crop (-0.22) is overfitted to on-button labels. It was tuned on a dataset where every label sits on its button, and it is precisely what destroys the beside-button panels.",
+    "Flat capacitive panels are entirely out of distribution for the detector."
+  ]
+}

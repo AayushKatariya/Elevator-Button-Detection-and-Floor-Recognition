@@ -1,0 +1,135 @@
+{
+ "buttons_evaluated": 1323,
+ "correctly_recognized": 877,
+ "incorrectly_recognized": 446,
+ "no_read": 3,
+ "accuracy": 0.6629,
+ "denominator_note": "Denominator = ground-truth buttons that were DETECTED (IoU>=0.5) and carry readable text. Undetected buttons appear in the end-to-end number instead; symbol/unreadable buttons are excluded entirely.",
+ "excluded_symbol_or_unreadable": 661,
+ "scorable_in_split": 1385,
+ "not_detected": 62,
+ "by_size": {
+  "med(32-48)": {
+   "correct": 323,
+   "total": 467
+  },
+  "large(48-64)": {
+   "correct": 162,
+   "total": 211
+  },
+  "small(24-32)": {
+   "correct": 92,
+   "total": 150
+  },
+  "xl(>=64)": {
+   "correct": 260,
+   "total": 326
+  },
+  "tiny(<24)": {
+   "correct": 40,
+   "total": 169
+  }
+ },
+ "top_confusions": [
+  {
+   "truth": "7",
+   "got": "1",
+   "n": 10
+  },
+  {
+   "truth": "3",
+   "got": "2",
+   "n": 10
+  },
+  {
+   "truth": "3",
+   "got": "1",
+   "n": 7
+  },
+  {
+   "truth": "2",
+   "got": "7",
+   "n": 5
+  },
+  {
+   "truth": "11",
+   "got": "17",
+   "n": 5
+  },
+  {
+   "truth": "6",
+   "got": "B",
+   "n": 4
+  },
+  {
+   "truth": "3",
+   "got": "5",
+   "n": 4
+  },
+  {
+   "truth": "6",
+   "got": "G",
+   "n": 4
+  },
+  {
+   "truth": "5",
+   "got": "6",
+   "n": 4
+  },
+  {
+   "truth": "2",
+   "got": "1",
+   "n": 4
+  },
+  {
+   "truth": "8",
+   "got": "9",
+   "n": 4
+  },
+  {
+   "truth": "9",
+   "got": "5",
+   "n": 4
+  },
+  {
+   "truth": "6",
+   "got": "8",
+   "n": 4
+  },
+  {
+   "truth": "5",
+   "got": "9",
+   "n": 3
+  },
+  {
+   "truth": "19",
+   "got": "10",
+   "n": 3
+  },
+  {
+   "truth": "17",
+   "got": "0",
+   "n": 3
+  },
+  {
+   "truth": "15",
+   "got": "13",
+   "n": 3
+  },
+  {
+   "truth": "9",
+   "got": "3",
+   "n": 3
+  },
+  {
+   "truth": "10",
+   "got": "1",
+   "n": 3
+  },
+  {
+   "truth": "8",
+   "got": "6",
+   "n": 3
+  }
+ ]
+}

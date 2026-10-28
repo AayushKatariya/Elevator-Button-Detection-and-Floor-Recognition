@@ -1,0 +1,463 @@
+{
+ "split": "test",
+ "crops": 1385,
+ "crop_padding_ratio": -0.22,
+ "results": [
+  {
+   "engine": "easyocr",
+   "evaluated": 1385,
+   "correct": 366,
+   "incorrect": 499,
+   "no_read": 520,
+   "accuracy": 0.2643,
+   "accuracy_snapped": 0.2693,
+   "read_rate": 0.6245,
+   "latency_ms": {
+    "mean": 20.9,
+    "median": 19.7
+   },
+   "by_size": {
+    "med(32-48)": {
+     "correct": 120,
+     "total": 483
+    },
+    "large(48-64)": {
+     "correct": 69,
+     "total": 219
+    },
+    "small(24-32)": {
+     "correct": 17,
+     "total": 150
+    },
+    "xl(>=64)": {
+     "correct": 152,
+     "total": 341
+    },
+    "tiny(<24)": {
+     "correct": 8,
+     "total": 192
+    }
+   },
+   "by_label_len": {
+    "1": {
+     "correct": 296,
+     "total": 860
+    },
+    "2": {
+     "correct": 70,
+     "total": 520
+    },
+    "3": {
+     "correct": 0,
+     "total": 5
+    }
+   },
+   "top_confusions": [
+    {
+     "truth": "1",
+     "got": "<no read>",
+     "n": 48
+    },
+    {
+     "truth": "2",
+     "got": "<no read>",
+     "n": 40
+    },
+    {
+     "truth": "3",
+     "got": "<no read>",
+     "n": 33
+    },
+    {
+     "truth": "10",
+     "got": "<no read>",
+     "n": 33
+    },
+    {
+     "truth": "4",
+     "got": "<no read>",
+     "n": 29
+    },
+    {
+     "truth": "6",
+     "got": "<no read>",
+     "n": 27
+    },
+    {
+     "truth": "7",
+     "got": "<no read>",
+     "n": 26
+    },
+    {
+     "truth": "5",
+     "got": "<no read>",
+     "n": 25
+    },
+    {
+     "truth": "9",
+     "got": "<no read>",
+     "n": 22
+    },
+    {
+     "truth": "8",
+     "got": "<no read>",
+     "n": 20
+    },
+    {
+     "truth": "11",
+     "got": "<no read>",
+     "n": 20
+    },
+    {
+     "truth": "15",
+     "got": "<no read>",
+     "n": 15
+    },
+    {
+     "truth": "G",
+     "got": "<no read>",
+     "n": 15
+    },
+    {
+     "truth": "16",
+     "got": "<no read>",
+     "n": 13
+    },
+    {
+     "truth": "12",
+     "got": "<no read>",
+     "n": 13
+    },
+    {
+     "truth": "8",
+     "got": "0",
+     "n": 13
+    },
+    {
+     "truth": "9",
+     "got": "0",
+     "n": 12
+    },
+    {
+     "truth": "13",
+     "got": "<no read>",
+     "n": 11
+    },
+    {
+     "truth": "19",
+     "got": "<no read>",
+     "n": 11
+    },
+    {
+     "truth": "2",
+     "got": "1",
+     "n": 10
+    }
+   ]
+  },
+  {
+   "engine": "tesseract",
+   "evaluated": 1385,
+   "correct": 307,
+   "incorrect": 453,
+   "no_read": 625,
+   "accuracy": 0.2217,
+   "accuracy_snapped": 0.2238,
+   "read_rate": 0.5487,
+   "latency_ms": {
+    "mean": 793.9,
+    "median": 726.2
+   },
+   "by_size": {
+    "med(32-48)": {
+     "correct": 104,
+     "total": 483
+    },
+    "large(48-64)": {
+     "correct": 55,
+     "total": 219
+    },
+    "small(24-32)": {
+     "correct": 38,
+     "total": 150
+    },
+    "xl(>=64)": {
+     "correct": 104,
+     "total": 341
+    },
+    "tiny(<24)": {
+     "correct": 6,
+     "total": 192
+    }
+   },
+   "by_label_len": {
+    "1": {
+     "correct": 240,
+     "total": 860
+    },
+    "2": {
+     "correct": 67,
+     "total": 520
+    },
+    "3": {
+     "correct": 0,
+     "total": 5
+    }
+   },
+   "top_confusions": [
+    {
+     "truth": "1",
+     "got": "<no read>",
+     "n": 54
+    },
+    {
+     "truth": "2",
+     "got": "<no read>",
+     "n": 46
+    },
+    {
+     "truth": "3",
+     "got": "<no read>",
+     "n": 45
+    },
+    {
+     "truth": "8",
+     "got": "<no read>",
+     "n": 35
+    },
+    {
+     "truth": "5",
+     "got": "<no read>",
+     "n": 30
+    },
+    {
+     "truth": "9",
+     "got": "<no read>",
+     "n": 29
+    },
+    {
+     "truth": "6",
+     "got": "<no read>",
+     "n": 29
+    },
+    {
+     "truth": "4",
+     "got": "<no read>",
+     "n": 28
+    },
+    {
+     "truth": "7",
+     "got": "<no read>",
+     "n": 28
+    },
+    {
+     "truth": "10",
+     "got": "<no read>",
+     "n": 22
+    },
+    {
+     "truth": "G",
+     "got": "<no read>",
+     "n": 21
+    },
+    {
+     "truth": "11",
+     "got": "<no read>",
+     "n": 18
+    },
+    {
+     "truth": "3",
+     "got": "4",
+     "n": 16
+    },
+    {
+     "truth": "20",
+     "got": "<no read>",
+     "n": 15
+    },
+    {
+     "truth": "2",
+     "got": "4",
+     "n": 15
+    },
+    {
+     "truth": "18",
+     "got": "<no read>",
+     "n": 15
+    },
+    {
+     "truth": "1",
+     "got": "4",
+     "n": 14
+    },
+    {
+     "truth": "15",
+     "got": "<no read>",
+     "n": 14
+    },
+    {
+     "truth": "14",
+     "got": "<no read>",
+     "n": 13
+    },
+    {
+     "truth": "12",
+     "got": "<no read>",
+     "n": 13
+    }
+   ]
+  },
+  {
+   "engine": "paddleocr",
+   "evaluated": 1385,
+   "correct": 822,
+   "incorrect": 425,
+   "no_read": 138,
+   "accuracy": 0.5935,
+   "accuracy_snapped": 0.5957,
+   "read_rate": 0.9004,
+   "latency_ms": {
+    "mean": 141.3,
+    "median": 153.6
+   },
+   "by_size": {
+    "med(32-48)": {
+     "correct": 317,
+     "total": 483
+    },
+    "large(48-64)": {
+     "correct": 159,
+     "total": 219
+    },
+    "small(24-32)": {
+     "correct": 68,
+     "total": 150
+    },
+    "xl(>=64)": {
+     "correct": 264,
+     "total": 341
+    },
+    "tiny(<24)": {
+     "correct": 14,
+     "total": 192
+    }
+   },
+   "by_label_len": {
+    "1": {
+     "correct": 567,
+     "total": 860
+    },
+    "2": {
+     "correct": 253,
+     "total": 520
+    },
+    "3": {
+     "correct": 2,
+     "total": 5
+    }
+   },
+   "top_confusions": [
+    {
+     "truth": "1",
+     "got": "<no read>",
+     "n": 11
+    },
+    {
+     "truth": "10",
+     "got": "<no read>",
+     "n": 9
+    },
+    {
+     "truth": "B1",
+     "got": "81",
+     "n": 9
+    },
+    {
+     "truth": "3",
+     "got": "<no read>",
+     "n": 9
+    },
+    {
+     "truth": "2",
+     "got": "<no read>",
+     "n": 8
+    },
+    {
+     "truth": "3",
+     "got": "1",
+     "n": 8
+    },
+    {
+     "truth": "8",
+     "got": "0",
+     "n": 8
+    },
+    {
+     "truth": "8",
+     "got": "<no read>",
+     "n": 7
+    },
+    {
+     "truth": "7",
+     "got": "<no read>",
+     "n": 7
+    },
+    {
+     "truth": "1",
+     "got": "0",
+     "n": 6
+    },
+    {
+     "truth": "15",
+     "got": "<no read>",
+     "n": 6
+    },
+    {
+     "truth": "11",
+     "got": "<no read>",
+     "n": 6
+    },
+    {
+     "truth": "9",
+     "got": "<no read>",
+     "n": 6
+    },
+    {
+     "truth": "5",
+     "got": "<no read>",
+     "n": 6
+    },
+    {
+     "truth": "6",
+     "got": "<no read>",
+     "n": 6
+    },
+    {
+     "truth": "16",
+     "got": "<no read>",
+     "n": 5
+    },
+    {
+     "truth": "12",
+     "got": "<no read>",
+     "n": 5
+    },
+    {
+     "truth": "4",
+     "got": "<no read>",
+     "n": 5
+    },
+    {
+     "truth": "7",
+     "got": "1",
+     "n": 5
+    },
+    {
+     "truth": "6",
+     "got": "0",
+     "n": 5
+    }
+   ]
+  }
+ ]
+}

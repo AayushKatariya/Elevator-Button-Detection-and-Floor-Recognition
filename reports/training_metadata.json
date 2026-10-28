@@ -1,0 +1,54 @@
+{
+ "timestamp": "2026-08-26T12:05:54.193914+00:00",
+ "hardware": {
+  "device": "0",
+  "gpu": "NVIDIA GeForce RTX 5070 Ti",
+  "platform": "Windows 11",
+  "python": "3.13.5",
+  "torch": "2.11.0+cu128",
+  "cuda_build": "12.8"
+ },
+ "dataset": {
+  "data_yaml": "Final dataset\\data.yaml",
+  "nc": 1,
+  "names": [
+   "button"
+  ],
+  "train_images": 1405,
+  "val_images": 401
+ },
+ "config": {
+  "base_model": "yolov8n.pt",
+  "epochs": 100,
+  "imgsz": 640,
+  "batch": 16,
+  "patience": 25,
+  "seed": 42,
+  "workers": 8,
+  "optimizer": "auto",
+  "project": "runs",
+  "name": "yolov8n_buttons",
+  "fliplr": 0.5,
+  "flipud": 0.0,
+  "degrees": 10.0,
+  "perspective": 0.0005,
+  "mosaic": 1.0,
+  "hsv_h": 0.015,
+  "hsv_s": 0.7,
+  "hsv_v": 0.4
+ },
+ "epochs_configured": 100,
+ "epochs_run": 100,
+ "early_stopped": false,
+ "wall_clock_seconds": 814.1,
+ "wall_clock_human": "0h 13m 34s",
+ "run_dir": "C:\\Users\\Admin\\LastMile Robotics\\runs\\detect\\runs\\yolov8n_buttons",
+ "weights": "models\\best.pt",
+ "final_metrics": {
+  "metrics/precision(B)": 0.9058957672232175,
+  "metrics/recall(B)": 0.9216623712070426,
+  "metrics/mAP50(B)": 0.9463453877007079,
+  "metrics/mAP50-95(B)": 0.6713721259883759,
+  "fitness": 0.6713721259883759
+ }
+}

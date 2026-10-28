@@ -1,0 +1,70 @@
+# Central configuration. Every tunable decision lives here, not scattered in code,
+# so the README's "Training configuration / Hyperparameters" section stays accurate.
+
+paths:
+  dataset: "Final dataset"
+  data_yaml: "Final dataset/data.yaml"
+  ocr_ground_truth: "Final dataset/ocr_ground_truth.json"
+  model_weights: "models/best.pt"
+  classifier_weights: "models/button_cls.pt"
+
+training:
+  base_model: yolov8n.pt      # COCO-pretrained backbone (transfer learning, allowed)
+  epochs: 100
+  imgsz: 640                  # NATIVE resolution of the merged dataset - no resampling
+  batch: 16
+  patience: 25                # early stopping
+  seed: 42
+  workers: 8
+  optimizer: auto             # Ultralytics picks AdamW for short runs, SGD otherwise
+  project: runs
+  name: yolov8n_buttons
+
+  # Augmentation. Roboflow applied none, so everything here comes from Ultralytics.
+  # fliplr is SAFE only because we collapsed to a single class - a mirrored button
+  # is still a button. It would corrupt digit identity in a multi-class variant.
+  fliplr: 0.5
+  flipud: 0.0                 # panels are never upside down
+  degrees: 10.0               # real panels are photographed at an angle
+  perspective: 0.0005
+  mosaic: 1.0
+  hsv_h: 0.015
+  hsv_s: 0.7
+  hsv_v: 0.4
+
+detection:
+  conf_threshold: 0.25
+  iou_threshold: 0.45
+  max_detections: 100
+
+ocr:
+  # Hybrid: the button classifier is primary, PaddleOCR is the fallback when the
+  # classifier is unsure. Measured on 1385 ground-truth test crops:
+  #   classifier 66.9%  paddleocr 59.4%  HOG+SVM 31.8%  easyocr 26.4%  tesseract 22.2%
+  # The classifier is closed-set (228 labels) so it cannot read a novel label;
+  # PaddleOCR can, which is exactly the gap the fallback covers.
+  engine: hybrid              # hybrid | classifier | paddleocr | easyocr | tesseract
+  hybrid_fallback: true
+  classifier_threshold: 0.55  # below this, ask PaddleOCR too
+  # Optional, only for the ocr_compare.py baseline. null = auto-detect from PATH
+  # and the usual install locations on Windows/macOS/Linux.
+  tesseract_path: null
+  # NEGATIVE = crop inward. Ground-truth boxes bound the whole button including
+  # its circular bezel, and the recognizer reads that bezel as a "0" (at pad=0,
+  # 11 of the first 220 buttons read as "0"). Cropping 22% inward isolates the
+  # glyph and nearly triples accuracy: 9.1% -> 26.4% on a 220-button sweep.
+  # Swept over {-0.30,-0.22,-0.15,-0.08,0.0,+0.15}; -0.22 won.
+  crop_padding_ratio: -0.22
+  target_crop_height: 128
+  # INTER_LINEAR measured 5.6 points better than INTER_CUBIC for PaddleOCR
+  # (59.3% vs 53.7%); CLAHE actively hurt it (55.3%).
+  interpolation: linear
+  min_confidence: 0.30
+  # Derived from the 258 real ground-truth strings in ocr_ground_truth.json,
+  # not guessed. Max ground-truth string length is 3 characters.
+  allowlist: "0123456789ABCDEFGHIJKLMNOPRSTUVXZ-"
+
+floor_selection:
+  fuzzy_match_max_distance: 1
+  enable_grid_inference: true
+  confidence_mode: combined   # combined = det_conf * ocr_conf

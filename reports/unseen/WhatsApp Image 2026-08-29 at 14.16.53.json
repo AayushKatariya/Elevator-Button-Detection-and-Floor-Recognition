@@ -1,0 +1,442 @@
+{
+  "buttons": [
+    {
+      "text": "22",
+      "bbox": [
+        457,
+        194,
+        563,
+        306
+      ],
+      "center": [
+        510,
+        250
+      ],
+      "confidence": 0.5748,
+      "ocr_confidence": 0.6695,
+      "detection_confidence": 0.8585
+    },
+    {
+      "text": "4",
+      "bbox": [
+        341,
+        201,
+        451,
+        313
+      ],
+      "center": [
+        396,
+        257
+      ],
+      "confidence": 0.8771,
+      "ocr_confidence": 0.9744,
+      "detection_confidence": 0.9001
+    },
+    {
+      "text": "20",
+      "bbox": [
+        223,
+        207,
+        337,
+        321
+      ],
+      "center": [
+        280,
+        264
+      ],
+      "confidence": 0.8607,
+      "ocr_confidence": 0.9959,
+      "detection_confidence": 0.8643
+    },
+    {
+      "text": "19",
+      "bbox": [
+        467,
+        318,
+        568,
+        423
+      ],
+      "center": [
+        517,
+        370
+      ],
+      "confidence": 0.6474,
+      "ocr_confidence": 0.7318,
+      "detection_confidence": 0.8847
+    },
+    {
+      "text": "18",
+      "bbox": [
+        355,
+        325,
+        461,
+        436
+      ],
+      "center": [
+        408,
+        380
+      ],
+      "confidence": 0.7913,
+      "ocr_confidence": 0.9241,
+      "detection_confidence": 0.8563
+    },
+    {
+      "text": "17",
+      "bbox": [
+        240,
+        333,
+        349,
+        445
+      ],
+      "center": [
+        294,
+        389
+      ],
+      "confidence": 0.8652,
+      "ocr_confidence": 0.9612,
+      "detection_confidence": 0.9001
+    },
+    {
+      "text": "16",
+      "bbox": [
+        476,
+        434,
+        576,
+        540
+      ],
+      "center": [
+        526,
+        487
+      ],
+      "confidence": 0.8446,
+      "ocr_confidence": 0.977,
+      "detection_confidence": 0.8645
+    },
+    {
+      "text": "15",
+      "bbox": [
+        364,
+        444,
+        472,
+        549
+      ],
+      "center": [
+        418,
+        496
+      ],
+      "confidence": 0.8658,
+      "ocr_confidence": 0.9976,
+      "detection_confidence": 0.8679
+    },
+    {
+      "text": "4",
+      "bbox": [
+        255,
+        453,
+        361,
+        560
+      ],
+      "center": [
+        308,
+        506
+      ],
+      "confidence": 0.6385,
+      "ocr_confidence": 0.7296,
+      "detection_confidence": 0.8752
+    },
+    {
+      "text": "13",
+      "bbox": [
+        484,
+        548,
+        580,
+        650
+      ],
+      "center": [
+        532,
+        599
+      ],
+      "confidence": 0.8918,
+      "ocr_confidence": 0.9975,
+      "detection_confidence": 0.894
+    },
+    {
+      "text": "12",
+      "bbox": [
+        378,
+        558,
+        478,
+        663
+      ],
+      "center": [
+        428,
+        610
+      ],
+      "confidence": 0.8468,
+      "ocr_confidence": 0.9607,
+      "detection_confidence": 0.8814
+    },
+    {
+      "text": "M",
+      "bbox": [
+        268,
+        569,
+        373,
+        671
+      ],
+      "center": [
+        320,
+        620
+      ],
+      "confidence": 0.4995,
+      "ocr_confidence": 0.5756,
+      "detection_confidence": 0.8678
+    },
+    {
+      "text": "10",
+      "bbox": [
+        490,
+        655,
+        585,
+        752
+      ],
+      "center": [
+        537,
+        703
+      ],
+      "confidence": 0.889,
+      "ocr_confidence": 0.9889,
+      "detection_confidence": 0.899
+    },
+    {
+      "text": "2",
+      "bbox": [
+        389,
+        667,
+        485,
+        764
+      ],
+      "center": [
+        437,
+        715
+      ],
+      "confidence": 0.8789,
+      "ocr_confidence": 0.977,
+      "detection_confidence": 0.8995
+    },
+    {
+      "text": "8",
+      "bbox": [
+        281,
+        679,
+        383,
+        777
+      ],
+      "center": [
+        332,
+        728
+      ],
+      "confidence": 0.7624,
+      "ocr_confidence": 0.8605,
+      "detection_confidence": 0.8861
+    },
+    {
+      "text": "1",
+      "bbox": [
+        498,
+        758,
+        590,
+        853
+      ],
+      "center": [
+        544,
+        805
+      ],
+      "confidence": 0.6718,
+      "ocr_confidence": 0.7915,
+      "detection_confidence": 0.8487
+    },
+    {
+      "text": "6",
+      "bbox": [
+        398,
+        769,
+        492,
+        865
+      ],
+      "center": [
+        445,
+        817
+      ],
+      "confidence": 0.8446,
+      "ocr_confidence": 0.9998,
+      "detection_confidence": 0.8448
+    },
+    {
+      "text": "5",
+      "bbox": [
+        291,
+        781,
+        394,
+        877
+      ],
+      "center": [
+        342,
+        829
+      ],
+      "confidence": 0.8409,
+      "ocr_confidence": 0.993,
+      "detection_confidence": 0.8468
+    },
+    {
+      "text": "4",
+      "bbox": [
+        504,
+        855,
+        596,
+        944
+      ],
+      "center": [
+        550,
+        899
+      ],
+      "confidence": 0.8702,
+      "ocr_confidence": 1.0,
+      "detection_confidence": 0.8702
+    },
+    {
+      "text": "3",
+      "bbox": [
+        404,
+        868,
+        499,
+        960
+      ],
+      "center": [
+        451,
+        914
+      ],
+      "confidence": 0.895,
+      "ocr_confidence": 0.9999,
+      "detection_confidence": 0.8951
+    },
+    {
+      "text": "2",
+      "bbox": [
+        302,
+        879,
+        399,
+        974
+      ],
+      "center": [
+        350,
+        926
+      ],
+      "confidence": 0.8418,
+      "ocr_confidence": 0.9758,
+      "detection_confidence": 0.8627
+    },
+    {
+      "text": "4",
+      "bbox": [
+        512,
+        949,
+        600,
+        1039
+      ],
+      "center": [
+        556,
+        994
+      ],
+      "confidence": 0.6385,
+      "ocr_confidence": 0.7359,
+      "detection_confidence": 0.8677
+    },
+    {
+      "text": "L",
+      "bbox": [
+        413,
+        960,
+        504,
+        1051
+      ],
+      "center": [
+        458,
+        1005
+      ],
+      "confidence": 0.8676,
+      "ocr_confidence": 0.9951,
+      "detection_confidence": 0.8718
+    },
+    {
+      "text": "P",
+      "bbox": [
+        316,
+        976,
+        411,
+        1066
+      ],
+      "center": [
+        363,
+        1021
+      ],
+      "confidence": 0.8578,
+      "ocr_confidence": 0.9975,
+      "detection_confidence": 0.8599
+    },
+    {
+      "text": "K",
+      "bbox": [
+        487,
+        1042,
+        576,
+        1131
+      ],
+      "center": [
+        531,
+        1086
+      ],
+      "confidence": 0.6586,
+      "ocr_confidence": 0.7658,
+      "detection_confidence": 0.8601
+    },
+    {
+      "text": "42",
+      "bbox": [
+        358,
+        1063,
+        450,
+        1151
+      ],
+      "center": [
+        404,
+        1107
+      ],
+      "confidence": 0.6378,
+      "ocr_confidence": 0.7231,
+      "detection_confidence": 0.882
+    },
+    {
+      "text": "21",
+      "bbox": [
+        432,
+        1153,
+        519,
+        1239
+      ],
+      "center": [
+        475,
+        1196
+      ],
+      "confidence": 0.8304,
+      "ocr_confidence": 0.952,
+      "detection_confidence": 0.8722
+    }
+  ],
+  "count": 27,
+  "image": "Unseen Dataset\\WhatsApp Image 2026-08-29 at 14.16.53.jpeg",
+  "timings_ms": {
+    "detect_ms": 8.79,
+    "ocr_ms": 3065.07
+  }
+}

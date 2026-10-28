@@ -1,0 +1,15 @@
+{
+ "model": "yolov8n-cls.pt",
+ "classes": 228,
+ "train_crops": 9806,
+ "epochs": 120,
+ "imgsz": 128,
+ "batch": 96,
+ "seed": 42,
+ "device": "0",
+ "val_top1": 0.12668365240097046,
+ "val_top5": 0.15726247429847717,
+ "wall_clock_seconds": 459.1,
+ "weights": "models\\button_cls.pt",
+ "run_dir": "C:\\Users\\Admin\\LastMile Robotics\\runs\\classify\\runs_cls\\button_cls"
+}

@@ -1,0 +1,730 @@
+{
+  "buttons": [
+    {
+      "text": "4",
+      "bbox": [
+        330,
+        117,
+        351,
+        143
+      ],
+      "center": [
+        340,
+        130
+      ],
+      "confidence": 0.3173,
+      "ocr_confidence": 0.5675,
+      "detection_confidence": 0.5591
+    },
+    {
+      "text": "5",
+      "bbox": [
+        353,
+        117,
+        373,
+        143
+      ],
+      "center": [
+        363,
+        130
+      ],
+      "confidence": 0.2853,
+      "ocr_confidence": 0.4578,
+      "detection_confidence": 0.6232
+    },
+    {
+      "text": "4",
+      "bbox": [
+        309,
+        117,
+        327,
+        145
+      ],
+      "center": [
+        318,
+        131
+      ],
+      "confidence": 0.4168,
+      "ocr_confidence": 0.8542,
+      "detection_confidence": 0.488
+    },
+    {
+      "text": null,
+      "bbox": [
+        286,
+        199,
+        307,
+        224
+      ],
+      "center": [
+        296,
+        211
+      ],
+      "confidence": 0.0,
+      "ocr_confidence": 0.0,
+      "detection_confidence": 0.7094
+    },
+    {
+      "text": "8",
+      "bbox": [
+        309,
+        199,
+        326,
+        224
+      ],
+      "center": [
+        317,
+        211
+      ],
+      "confidence": 0.6974,
+      "ocr_confidence": 0.9043,
+      "detection_confidence": 0.7712
+    },
+    {
+      "text": "4",
+      "bbox": [
+        329,
+        213,
+        350,
+        231
+      ],
+      "center": [
+        339,
+        222
+      ],
+      "confidence": 0.2554,
+      "ocr_confidence": 0.5912,
+      "detection_confidence": 0.432
+    },
+    {
+      "text": "5",
+      "bbox": [
+        353,
+        213,
+        370,
+        237
+      ],
+      "center": [
+        361,
+        225
+      ],
+      "confidence": 0.568,
+      "ocr_confidence": 0.7382,
+      "detection_confidence": 0.7695
+    },
+    {
+      "text": "22",
+      "bbox": [
+        329,
+        223,
+        350,
+        238
+      ],
+      "center": [
+        339,
+        230
+      ],
+      "confidence": 0.3963,
+      "ocr_confidence": 0.9642,
+      "detection_confidence": 0.4111
+    },
+    {
+      "text": "5",
+      "bbox": [
+        310,
+        226,
+        326,
+        251
+      ],
+      "center": [
+        318,
+        238
+      ],
+      "confidence": 0.6845,
+      "ocr_confidence": 0.9151,
+      "detection_confidence": 0.748
+    },
+    {
+      "text": "9",
+      "bbox": [
+        284,
+        229,
+        306,
+        250
+      ],
+      "center": [
+        295,
+        239
+      ],
+      "confidence": 0.394,
+      "ocr_confidence": 0.4948,
+      "detection_confidence": 0.7964
+    },
+    {
+      "text": "23",
+      "bbox": [
+        329,
+        240,
+        349,
+        256
+      ],
+      "center": [
+        339,
+        248
+      ],
+      "confidence": 0.5403,
+      "ocr_confidence": 0.8122,
+      "detection_confidence": 0.6653
+    },
+    {
+      "text": "3",
+      "bbox": [
+        353,
+        241,
+        369,
+        264
+      ],
+      "center": [
+        361,
+        252
+      ],
+      "confidence": 0.7402,
+      "ocr_confidence": 0.9589,
+      "detection_confidence": 0.7719
+    },
+    {
+      "text": "10",
+      "bbox": [
+        329,
+        251,
+        349,
+        263
+      ],
+      "center": [
+        339,
+        257
+      ],
+      "confidence": 0.5812,
+      "ocr_confidence": 0.8137,
+      "detection_confidence": 0.7142
+    },
+    {
+      "text": "4",
+      "bbox": [
+        286,
+        253,
+        306,
+        277
+      ],
+      "center": [
+        296,
+        265
+      ],
+      "confidence": 0.5726,
+      "ocr_confidence": 0.6929,
+      "detection_confidence": 0.8264
+    },
+    {
+      "text": "10",
+      "bbox": [
+        309,
+        254,
+        325,
+        278
+      ],
+      "center": [
+        317,
+        266
+      ],
+      "confidence": 0.3011,
+      "ocr_confidence": 0.3986,
+      "detection_confidence": 0.7554
+    },
+    {
+      "text": "20",
+      "bbox": [
+        328,
+        268,
+        349,
+        290
+      ],
+      "center": [
+        338,
+        279
+      ],
+      "confidence": 0.6166,
+      "ocr_confidence": 0.7518,
+      "detection_confidence": 0.8201
+    },
+    {
+      "text": "2",
+      "bbox": [
+        352,
+        268,
+        369,
+        292
+      ],
+      "center": [
+        360,
+        280
+      ],
+      "confidence": 0.5278,
+      "ocr_confidence": 0.6588,
+      "detection_confidence": 0.8011
+    },
+    {
+      "text": "25",
+      "bbox": [
+        285,
+        280,
+        306,
+        302
+      ],
+      "center": [
+        295,
+        291
+      ],
+      "confidence": 0.7132,
+      "ocr_confidence": 0.9516,
+      "detection_confidence": 0.7495
+    },
+    {
+      "text": "2",
+      "bbox": [
+        308,
+        281,
+        325,
+        305
+      ],
+      "center": [
+        316,
+        293
+      ],
+      "confidence": 0.7079,
+      "ocr_confidence": 0.9425,
+      "detection_confidence": 0.7511
+    },
+    {
+      "text": "1",
+      "bbox": [
+        329,
+        293,
+        348,
+        317
+      ],
+      "center": [
+        338,
+        305
+      ],
+      "confidence": 0.6876,
+      "ocr_confidence": 0.8181,
+      "detection_confidence": 0.8405
+    },
+    {
+      "text": "1",
+      "bbox": [
+        351,
+        295,
+        369,
+        319
+      ],
+      "center": [
+        360,
+        307
+      ],
+      "confidence": 0.6147,
+      "ocr_confidence": 0.778,
+      "detection_confidence": 0.7902
+    },
+    {
+      "text": "46",
+      "bbox": [
+        285,
+        308,
+        305,
+        331
+      ],
+      "center": [
+        295,
+        319
+      ],
+      "confidence": 0.5159,
+      "ocr_confidence": 0.6104,
+      "detection_confidence": 0.8451
+    },
+    {
+      "text": "1",
+      "bbox": [
+        308,
+        309,
+        324,
+        332
+      ],
+      "center": [
+        316,
+        320
+      ],
+      "confidence": 0.3938,
+      "ocr_confidence": 0.5172,
+      "detection_confidence": 0.7614
+    },
+    {
+      "text": "16",
+      "bbox": [
+        328,
+        321,
+        348,
+        346
+      ],
+      "center": [
+        338,
+        333
+      ],
+      "confidence": 0.3146,
+      "ocr_confidence": 0.3879,
+      "detection_confidence": 0.8109
+    },
+    {
+      "text": "0",
+      "bbox": [
+        351,
+        322,
+        368,
+        346
+      ],
+      "center": [
+        359,
+        334
+      ],
+      "confidence": 0.3958,
+      "ocr_confidence": 0.5183,
+      "detection_confidence": 0.7636
+    },
+    {
+      "text": "15",
+      "bbox": [
+        284,
+        333,
+        305,
+        357
+      ],
+      "center": [
+        294,
+        345
+      ],
+      "confidence": 0.518,
+      "ocr_confidence": 0.6175,
+      "detection_confidence": 0.839
+    },
+    {
+      "text": "11",
+      "bbox": [
+        309,
+        335,
+        324,
+        359
+      ],
+      "center": [
+        316,
+        347
+      ],
+      "confidence": 0.461,
+      "ocr_confidence": 0.5917,
+      "detection_confidence": 0.7791
+    },
+    {
+      "text": "8",
+      "bbox": [
+        328,
+        349,
+        348,
+        371
+      ],
+      "center": [
+        338,
+        360
+      ],
+      "confidence": 0.8376,
+      "ocr_confidence": 0.9937,
+      "detection_confidence": 0.8429
+    },
+    {
+      "text": "5",
+      "bbox": [
+        352,
+        348,
+        368,
+        372
+      ],
+      "center": [
+        360,
+        360
+      ],
+      "confidence": 0.5371,
+      "ocr_confidence": 0.6833,
+      "detection_confidence": 0.7861
+    },
+    {
+      "text": "14",
+      "bbox": [
+        284,
+        362,
+        306,
+        385
+      ],
+      "center": [
+        295,
+        373
+      ],
+      "confidence": 0.7896,
+      "ocr_confidence": 0.9579,
+      "detection_confidence": 0.8243
+    },
+    {
+      "text": "11",
+      "bbox": [
+        309,
+        361,
+        325,
+        385
+      ],
+      "center": [
+        317,
+        373
+      ],
+      "confidence": 0.6408,
+      "ocr_confidence": 0.8138,
+      "detection_confidence": 0.7874
+    },
+    {
+      "text": "13",
+      "bbox": [
+        328,
+        374,
+        348,
+        397
+      ],
+      "center": [
+        338,
+        385
+      ],
+      "confidence": 0.3209,
+      "ocr_confidence": 0.3943,
+      "detection_confidence": 0.8139
+    },
+    {
+      "text": "26",
+      "bbox": [
+        351,
+        374,
+        368,
+        399
+      ],
+      "center": [
+        359,
+        386
+      ],
+      "confidence": 0.511,
+      "ocr_confidence": 0.6633,
+      "detection_confidence": 0.7704
+    },
+    {
+      "text": "3",
+      "bbox": [
+        308,
+        389,
+        324,
+        411
+      ],
+      "center": [
+        316,
+        400
+      ],
+      "confidence": 0.3426,
+      "ocr_confidence": 0.4712,
+      "detection_confidence": 0.7272
+    },
+    {
+      "text": "2",
+      "bbox": [
+        328,
+        401,
+        348,
+        424
+      ],
+      "center": [
+        338,
+        412
+      ],
+      "confidence": 0.3039,
+      "ocr_confidence": 0.4005,
+      "detection_confidence": 0.7588
+    },
+    {
+      "text": "2",
+      "bbox": [
+        351,
+        401,
+        367,
+        423
+      ],
+      "center": [
+        359,
+        412
+      ],
+      "confidence": 0.7507,
+      "ocr_confidence": 0.9732,
+      "detection_confidence": 0.7714
+    },
+    {
+      "text": "6",
+      "bbox": [
+        285,
+        413,
+        306,
+        437
+      ],
+      "center": [
+        295,
+        425
+      ],
+      "confidence": 0.7156,
+      "ocr_confidence": 0.8751,
+      "detection_confidence": 0.8177
+    },
+    {
+      "text": "G",
+      "bbox": [
+        308,
+        414,
+        324,
+        436
+      ],
+      "center": [
+        316,
+        425
+      ],
+      "confidence": 0.6134,
+      "ocr_confidence": 0.845,
+      "detection_confidence": 0.7259
+    },
+    {
+      "text": "10",
+      "bbox": [
+        351,
+        426,
+        367,
+        450
+      ],
+      "center": [
+        359,
+        438
+      ],
+      "confidence": 0.5206,
+      "ocr_confidence": 0.7744,
+      "detection_confidence": 0.6722
+    },
+    {
+      "text": "10",
+      "bbox": [
+        328,
+        427,
+        348,
+        452
+      ],
+      "center": [
+        338,
+        439
+      ],
+      "confidence": 0.7086,
+      "ocr_confidence": 0.8761,
+      "detection_confidence": 0.8088
+    },
+    {
+      "text": "A",
+      "bbox": [
+        285,
+        439,
+        305,
+        463
+      ],
+      "center": [
+        295,
+        451
+      ],
+      "confidence": 0.2927,
+      "ocr_confidence": 0.3623,
+      "detection_confidence": 0.8081
+    },
+    {
+      "text": "0",
+      "bbox": [
+        307,
+        439,
+        324,
+        463
+      ],
+      "center": [
+        315,
+        451
+      ],
+      "confidence": 0.2668,
+      "ocr_confidence": 0.3831,
+      "detection_confidence": 0.6964
+    },
+    {
+      "text": "10",
+      "bbox": [
+        326,
+        502,
+        348,
+        531
+      ],
+      "center": [
+        337,
+        516
+      ],
+      "confidence": 0.3712,
+      "ocr_confidence": 0.6037,
+      "detection_confidence": 0.6149
+    },
+    {
+      "text": "2",
+      "bbox": [
+        289,
+        505,
+        305,
+        529
+      ],
+      "center": [
+        297,
+        517
+      ],
+      "confidence": 0.3258,
+      "ocr_confidence": 0.9339,
+      "detection_confidence": 0.3489
+    },
+    {
+      "text": "4",
+      "bbox": [
+        357,
+        505,
+        383,
+        530
+      ],
+      "center": [
+        370,
+        517
+      ],
+      "confidence": 0.3315,
+      "ocr_confidence": 0.7018,
+      "detection_confidence": 0.4724
+    }
+  ],
+  "count": 45,
+  "image": "examples\\input\\147_jpg.jpg",
+  "timings_ms": {
+    "detect_ms": 11.77,
+    "ocr_ms": 6372.4
+  }
+}
